@@ -18,7 +18,10 @@ header {
   align-items: center;
   justify-content: center;
 }
-
+header h1 {
+  font-size: 1.8rem;
+  text-align: center;
+}
 .containerList {
   width: 100%;
   display: grid;
@@ -31,7 +34,7 @@ header {
   place-items: center;
 }
 .listSearch form {
-  width: 90%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,8 +45,7 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
 }
 .listSearch form input.inputSearch {
   width: 100%;
