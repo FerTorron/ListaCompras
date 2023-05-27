@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Compras</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>🧺 Lista de Compras 🧺</h1>
+    </header>
+    <main>
+      <section class="containerList">
+        <div class="listSearch">
+          <form>
+            <input
+              class="inputSearch"
+              type="search"
+              placeholder="¿Qué Producto desea Agregar?"
+              name=""
+              id=""
+            />
+            <div class="bottomOptions">
+              <input
+                class="inputCantidad"
+                value="1"
+                type="number"
+                min="1"
+                max="15"
+              />
+              <button type="button" class="inputButton">Agregar</button>
+              <button class="restoreButton">Restablecer</button>
+            </div>
+          </form>
+        </div>
+        <div class="listTable"></div>
+      </section>
+    </main>
+  </body>
+</html>
