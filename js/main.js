@@ -22,6 +22,8 @@ const addListProduct = () => {
         listaArray.push({ id: id, name: name, cantidad: cantidad })
         cargarList(listaArray);
         saveLocalList();
+        inputSearch.value = "";
+        inputCantidad.value = 1;
     } else {
         return
     }
