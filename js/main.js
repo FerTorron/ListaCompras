@@ -27,6 +27,17 @@ const addListProduct = () => {
     }
 }
 inputButton.addEventListener("click", addListProduct);
+inputSearch.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        addListProduct();
+    }
+});
+inputCantidad.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+    }
+});
 
 const returnList = (producto) => {
     return `<article>
